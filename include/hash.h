@@ -4,7 +4,7 @@
 #include <stddef.h>
 #include <time.h>
 
-#define HASH_VERSION_STRING "0.1.0-rc1"
+#define HASH_VERSION_STRING "0.1.0"
 
 /* HASH_OK is success. HASH_NOMEM means allocation failed and the map was
    left unchanged, except hash_create which sets *table to NULL.
